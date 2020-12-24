@@ -4,9 +4,9 @@ Puisi and pantun is an Indonesian poetic form. I scraped some puisi & pantun, fi
 ## Dataset
 The dataset was collected by scraping various websites. 
 * The puisi dataset contains 7223 Indonesian puisi with its title and author.
-* The pantun dataset contains 440 Indonesian pantun with 18 theme  
+* The pantun dataset contains 440 Indonesian pantun with 18 themes 
   
-more detail on [data dir](/data)
+more details on [data dir](/data)
 
 ## Fine-tuning
 I finetune Indonesian GPT-2 ([pretrained by Cahya Wirawan](https://github.com/cahya-wirawan/indonesian-language-models)) on Indonesian puisi & pantun. Both for `2 epoch` with `5e-5 learning rate`.  
@@ -124,7 +124,7 @@ Here's some cherry picked result:
 More on the [generated-puisi.txt](generated-puisi.txt) and [generated-pantun.txt](generated-pantun.txt) files.
 
 ## What's next
-Some idea to improve this experiment:
+Some ideas to improve this experiment:
 * Add restriction to the [generation script](https://www.kaggle.com/ilhamfp31/run-generation-py). The current pantun generation script did not put any restriction on the rhyme of each line. Most of the generated pantun has bad rhymes.
 * Try controllable generation (ex: [PPLM](https://arxiv.org/abs/1912.02164))
 * Add more data
