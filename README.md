@@ -1,5 +1,5 @@
 # Puisi & Pantun Generator
-Puisi and pantun is an Indonesian poetic form. I scraped some data, fine tune GPT-2, and generated one.
+Puisi and pantun is an Indonesian poetic form. I scraped some puisi & pantun, fine tune GPT-2, and generated one.
 
 ## Dataset
 The dataset was collected by scraping various websites. 
