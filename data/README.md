@@ -1,4 +1,7 @@
 # Dataset 
+The data also available on Kaggle:
+* [Puisi](https://www.kaggle.com/ilhamfp31/puisi-indonesia)
+* [Pantun](https://www.kaggle.com/ilhamfp31/pantun-indonesia)
 
 ## Puisi
 * The dataset contains 7223 Indonesian puisi (poem) with its title and author.
