@@ -7,6 +7,7 @@ The data also available on Kaggle:
 * The dataset contains 7223 Indonesian puisi (poem) with its title and author.
 * The data was scraped using BeautifulSoup from lokerpuisi.web.id
 * The title and author column was produced using regex match from puisi_with_header column.
+* Available on [Huggingface](https://huggingface.co/datasets/id_puisi) too.
 
 ## Pantun
 The dataset contains 440 pantun collected from:
